@@ -49,35 +49,35 @@ class AppConstants {
       scriptCode: "Hant",
       languageStr: "zh_Hant_HK",
     ),
-    LocaleModel(
-      imageIcon: "🇷🇺",
-      languageName: "Russian",
-      languageCode: "ru",
-      countryCode: "RU",
-      // scriptCode: "Hant",
-      languageStr: "ru_RU",
-    ),
-    LocaleModel(
-      imageIcon: "🇯🇵",
-      languageName: "Japanese",
-      languageCode: "ja",
-      countryCode: "JP",
-      languageStr: "ja_JP",
-    ),
-    LocaleModel(
-      imageIcon: "🇮🇳",
-      languageName: "Hindi",
-      languageCode: "hi",
-      countryCode: "IN",
-      languageStr: "hi_IN",
-    ),
-    LocaleModel(
-      imageIcon: "🇪🇸",
-      languageName: "Spanish",
-      languageCode: "es",
-      countryCode: "ES",
-      languageStr: "es_ES",
-    )
+    // LocaleModel(
+    //   imageIcon: "🇷🇺",
+    //   languageName: "Russian",
+    //   languageCode: "ru",
+    //   countryCode: "RU",
+    //   // scriptCode: "Hant",
+    //   languageStr: "ru_RU",
+    // ),
+    // LocaleModel(
+    //   imageIcon: "🇯🇵",
+    //   languageName: "Japanese",
+    //   languageCode: "ja",
+    //   countryCode: "JP",
+    //   languageStr: "ja_JP",
+    // ),
+    // LocaleModel(
+    //   imageIcon: "🇮🇳",
+    //   languageName: "Hindi",
+    //   languageCode: "hi",
+    //   countryCode: "IN",
+    //   languageStr: "hi_IN",
+    // ),
+    // LocaleModel(
+    //   imageIcon: "🇪🇸",
+    //   languageName: "Spanish",
+    //   languageCode: "es",
+    //   countryCode: "ES",
+    //   languageStr: "es_ES",
+    // )
   ];
 
   /// AI 分类
