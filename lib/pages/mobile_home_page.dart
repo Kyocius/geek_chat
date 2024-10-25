@@ -116,7 +116,8 @@ class MobileHomePage extends StatelessWidget {
     if (settingsController.hasNewVersion) {
       return badges.Badge(
         position: badges.BadgePosition.topEnd(top: 0, end: -12),
-        showBadge: true,
+        //showBadge: true,
+        showBadge: false,
         child: widget,
       );
     }

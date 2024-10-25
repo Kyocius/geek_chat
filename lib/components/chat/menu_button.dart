@@ -30,7 +30,8 @@ class LeftMenuButtonComponent extends StatelessWidget {
       // );
       return badges.Badge(
         position: badges.BadgePosition.topEnd(top: 0, end: -12),
-        showBadge: true,
+        // showBadge: true,
+        showBadge: false,
         child: Text(title),
       );
     }

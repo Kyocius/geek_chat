@@ -128,45 +128,45 @@ class SettingsComponent extends StatelessWidget {
       ),
 
       /// about me
-      const Divider(),
-      ListTile(
-        dense: true,
-        title: Text(
-          'About'.tr,
-          style: const TextStyle(fontWeight: FontWeight.bold),
-        ),
-      ),
-      ListTile(
-        title: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text("About".tr),
-            getVersionWidget(controller),
-          ],
-        ),
-        leading: const Icon(Icons.info_outline),
-        trailing: const Icon(Icons.chevron_right_outlined),
-        onTap: () {
-          // SmartSelect.single(selectedValue: selectedValue)
-          Get.toNamed('/about');
-        },
-      ),
+      // const Divider(),
+      // ListTile(
+      //   dense: true,
+      //   title: Text(
+      //     'About'.tr,
+      //     style: const TextStyle(fontWeight: FontWeight.bold),
+      //   ),
+      // ),
+      // ListTile(
+      //   title: Column(
+      //     crossAxisAlignment: CrossAxisAlignment.start,
+      //     children: [
+      //       Text("About".tr),
+      //       // getVersionWidget(controller),
+      //     ],
+      //   ),
+      //   leading: const Icon(Icons.info_outline),
+      //   trailing: const Icon(Icons.chevron_right_outlined),
+      //   onTap: () {
+      //     // SmartSelect.single(selectedValue: selectedValue)
+      //     Get.toNamed('/about');
+      //   },
+      // ),
     ];
     return menus;
   }
 
-  Widget getVersionWidget(SettingsController controller) {
-    Widget widget = Text(
-      "${'Version'.tr}, v${controller.packageInfo.version} ",
-      style: const TextStyle(fontSize: 12),
-    );
-    if (controller.hasNewVersion) {
-      return badges.Badge(
-        position: badges.BadgePosition.topEnd(top: 0, end: -12),
-        showBadge: true,
-        child: widget,
-      );
-    }
-    return widget;
-  }
+  // Widget getVersionWidget(SettingsController controller) {
+  //   Widget widget = Text(
+  //     "${'Version'.tr}, v${controller.packageInfo.version} ",
+  //     style: const TextStyle(fontSize: 12),
+  //   );
+  //   if (controller.hasNewVersion) {
+  //     return badges.Badge(
+  //       position: badges.BadgePosition.topEnd(top: 0, end: -12),
+  //       showBadge: true,
+  //       child: widget,
+  //     );
+  //   }
+  //   return widget;
+  // }
 }
