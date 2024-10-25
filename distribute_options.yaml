@@ -43,8 +43,8 @@ releases:
         publish:
           target: github
           args:
-            repo-owner: geeker-ai
-            repo-name: geek_chat
+            repo-owner: kyocius
+            repo-name: pure_chat
 
   # - name: windows-site
   #   jobs:
@@ -80,5 +80,5 @@ releases:
         publish:
           target: github
           args:
-            repo-owner: geeker-ai
-            repo-name: geek_chat
+            repo-owner: kyocius
+            repo-name: pure_chat
