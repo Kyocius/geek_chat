@@ -113,14 +113,14 @@ class MobileHomePage extends StatelessWidget {
 
   Widget getSettingsIcon() {
     Widget widget = const Icon(Icons.settings);
-    if (settingsController.hasNewVersion) {
-      return badges.Badge(
-        position: badges.BadgePosition.topEnd(top: 0, end: -12),
-        //showBadge: true,
-        showBadge: false,
-        child: widget,
-      );
-    }
+    // if (settingsController.hasNewVersion) {
+    //   return badges.Badge(
+    //     position: badges.BadgePosition.topEnd(top: 0, end: -12),
+    //     //showBadge: true,
+    //     showBadge: false,
+    //     child: widget,
+    //   );
+    // }
     return widget;
   }
 }
